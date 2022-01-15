@@ -50,7 +50,7 @@ const starts = async (alpha = new WAConnection()) => {
 		remoteJid: "0@s.whatsapp.net"},
 message: {"groupInviteMessage": {"groupJid": "6288213840883-1616169743@g.us",
 "inviteCode": "mememteeeekkeke","groupName": "Alphabot", 
-"caption": `Made With ❣️`, 'jpegThumbnail': fs.readFileSync(`image/${setting.thumb}`)
+"caption": `Simple Bot WhatsApp`, 'jpegThumbnail': fs.readFileSync(`image/${setting.thumb}`)
 }}}
          const mdata = await alpha.groupMetadata(anu.jid)
 		console.log(anu)
@@ -72,7 +72,7 @@ message: {"groupInviteMessage": {"groupJid": "6288213840883-1616169743@g.us",
         pp_user =
           "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png?q=60";
       }
-        teks = `*Welcome @${num.split('@')[0]}* ${enter}${enter}📛 : _${anu_user}_${enter}💌 : _${p3}_${enter}🔣 : _@${num.split('@')[0]}_${enter}🥉 : _${memeg} Member (s)_${enter}⏰ : _${jamnyy} Indonesian time_${enter}${enter}\`\`\`Hope you like it and don't forget to read the group description\`\`\``;
+        teks = `*welcome @${num.split('@')[0]}* ${enter}${enter}📛 : _${anu_user}_${enter}💌 : _${p3}_${enter}🔣 : _@${num.split('@')[0]}_${enter}🥉 : _${memeg} Member (s)_${enter}⏰ : _${jamnyy} Indonesian time_${enter}${enter}\`\`\`Hope you like it and don't forget to read the group description\`\`\``;
         buff = await getBuffer(pp_user)
          var _0xcd41=["\x65\x73\x63\x65\x73\x69\x61\x70\x61","\x57\x65\x6C\x63\x6F\x6D\x65\uD83D\uDC4B","\x69\x6D\x61\x67\x65\x4D\x65\x73\x73\x61\x67\x65","\x70\x72\x65\x70\x61\x72\x65\x4D\x65\x73\x73\x61\x67\x65\x4D\x65\x64\x69\x61","","\x45\x6E\x6A\x6F\x79\x20\u2615","\x69\x64","\x70\x72\x65\x70\x61\x72\x65\x4D\x65\x73\x73\x61\x67\x65\x46\x72\x6F\x6D\x43\x6F\x6E\x74\x65\x6E\x74","\x72\x65\x6C\x61\x79\x57\x41\x4D\x65\x73\x73\x61\x67\x65"];buttons= [{buttonId:`${_0xcd41[0]}`,buttonText:{displayText:_0xcd41[1]},type:1}];imageMsg= ( await alpha[_0xcd41[3]](buff,_0xcd41[2],{thumbnail:buff}))[_0xcd41[2]];buttonsMessage= {contentText:`${_0xcd41[4]}${teks}${_0xcd41[4]}`,footerText:_0xcd41[5],imageMessage:imageMsg,buttons:buttons,headerType:4};prep=  await alpha[_0xcd41[7]](mdata[_0xcd41[6]],{buttonsMessage},{contextInfo:{"\x6D\x65\x6E\x74\x69\x6F\x6E\x65\x64\x4A\x69\x64":[num],"\x66\x6F\x72\x77\x61\x72\x64\x69\x6E\x67\x53\x63\x6F\x72\x65":999,"\x69\x73\x46\x6F\x72\x77\x61\x72\x64\x65\x64":true},sendEphemeral:true});alpha[_0xcd41[8]](prep)
       }
@@ -97,7 +97,7 @@ message: {"groupInviteMessage": {"groupJid": "6288213840883-1616169743@g.us",
 					ppimg = 'https://i.ibb.co/rvsVF3r/5012fbb87660.png'
 				}
 			let buff = await getBuffer(ppimg)
-			teks = `🤙 *P R O M O T E  D E T E C T E D*
+			teks = `*P R O M O T E  D E T E C T E D*
 			
 \`\`\`Nomor :\`\`\` ${num.replace('@s.whatsapp.net', '')}
 \`\`\`User :\`\`\` @${num.split('@')[0]}
@@ -114,7 +114,7 @@ _Selamat jabatan kamu naik_`
 					ppimg = 'https://i.ibb.co/rvsVF3r/5012fbb87660.png'
 				}
 			let buff = await getBuffer(ppimg)
-			teks = `💞 *D E M O T E  D E T E C T E D*
+			teks = `*D E M O T E  D E T E C T E D*
 			
 \`\`\`Nomor :\`\`\` ${num.replace('@s.whatsapp.net', '')}
 \`\`\`User :\`\`\` @${num.split('@')[0]}
