@@ -60,7 +60,7 @@ ${petik}├❒ Source
 ├❒ Group_support
 └❒ Ownerbot${petik}
 
-❒ _Creator BotWea © 2K21_ ❒
+❒ _© H i - F E 3 D Z_ ❒
 `
 }
 const convert = (prefix) => {
@@ -108,7 +108,7 @@ ${petik}└❒ ${prefix}anime${petik} _random_
 `
 }
 const allmenu = (prefix, wita, wit, ucapannya, timuu, status, wa_version, mcc, mnc, os_version, device_manufacturer, device_model, alfa , alfa1, thisDay, ini_tanggal, totalchat, hit_today, ini_gcchat, latensiii, tekss)  => {
-	return`❏───「 *ALPHA BOT* 」───❏
+	return`❏───「 *Bot WhatsApp* 」───❏
      
 ┌❏ *INDONESIA TIME*
 ${petik}│◦➛ WIB : ${timuu}
@@ -553,7 +553,7 @@ ${petik}│◦ ${prefix}rikagusriani
 │
 └─❑「 MENU BOT 」
 
-❏───「 *ALPHA BOT* 」───❏
+❏───「 *Bot WhatsAppT* 」───❏
 `
 }
 
